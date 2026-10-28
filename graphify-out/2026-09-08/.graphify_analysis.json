@@ -1,0 +1,305 @@
+{
+  "communities": {
+    "0": [
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_checkoverlaypermission",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_createfloatingwidget",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_createfloatingwidget_object_ontouchlistener_l145",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_createfloatingwidget_object_ontouchlistener_l145_ontouch",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_onbind",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_oncreate",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_ondestroy",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_onoverlayclicked",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_onstartcommand",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_start",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_startasforeground",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice_stop",
+      "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_kt_context",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsscreen",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsscreen_limitationitem",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsscreen_modeloptionrow",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsscreen_settingsscreen",
+      "ibinder",
+      "intent",
+      "motionevent",
+      "service",
+      "view",
+      "windowmanager"
+    ],
+    "1": [
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_clearall",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_deletescan",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_getallhistory",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_getinstance",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_insertscan",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_oncreate",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_onupgrade",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase_refreshhistory",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_kt_context",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_kt_flow",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_scanhistorydao",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_scanhistorydao_clearall",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_scanhistorydao_deletescan",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_scanhistorydao_getallhistory",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_scanhistorydao_insertscan",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_scanhistoryentity",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_local_scanhistoryentity_scanhistoryentity",
+      "sqlitedatabase",
+      "sqliteopenhelper"
+    ],
+    "2": [
+      "app_src_androidtest_java_com_example_yaqeengulf_ui_main_mainscreentest",
+      "app_src_androidtest_java_com_example_yaqeengulf_ui_main_mainscreentest_mainscreentest",
+      "app_src_androidtest_java_com_example_yaqeengulf_ui_main_mainscreentest_mainscreentest_firstitem_exists",
+      "app_src_androidtest_java_com_example_yaqeengulf_ui_main_mainscreentest_mainscreentest_setup",
+      "app_src_main_java_com_yaqeengulf_deepfake_mainactivity",
+      "app_src_main_java_com_yaqeengulf_deepfake_mainactivity_mainactivity",
+      "app_src_main_java_com_yaqeengulf_deepfake_mainactivity_mainactivity_oncreate",
+      "app_src_main_java_com_yaqeengulf_deepfake_mainactivity_yaqeennavhost",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel_dashboardviewmodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel_factory",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel_factory_create",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel_kt_stateflow",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel_kt_t",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel_kt_viewmodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_theme_theme",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_theme_theme_yaqeentheme",
+      "bundle",
+      "componentactivity"
+    ],
+    "3": [
+      "app_src_main_java_com_yaqeengulf_deepfake_data_preferences_userpreferencesrepository",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_preferences_userpreferencesrepository_kt_flow",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_preferences_userpreferencesrepository_preferenceskeys",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_preferences_userpreferencesrepository_userpreferencesrepository",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_preferences_userpreferencesrepository_userpreferencesrepository_setimagemodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_data_preferences_userpreferencesrepository_userpreferencesrepository_setoverlayenabled",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_imagemodeltype",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_imagemodeltype_efficientnet_b3",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_imagemodeltype_fromid",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_imagemodeltype_swin_t",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_settingsviewmodel_selectimagemodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_yaqeenapp",
+      "app_src_main_java_com_yaqeengulf_deepfake_yaqeenapp_yaqeenapp",
+      "app_src_main_java_com_yaqeengulf_deepfake_yaqeenapp_yaqeenapp_createnotificationchannels",
+      "app_src_main_java_com_yaqeengulf_deepfake_yaqeenapp_yaqeenapp_oncreate",
+      "application"
+    ],
+    "4": [
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_factory",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_factory_create",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_kt_context",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_kt_stateflow",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_kt_t",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_kt_viewmodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_settingsviewmodel",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_settingsviewmodel_toggleoverlay",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_settingsviewmodel_updatepermissionstatus"
+    ],
+    "5": [
+      "app_src_test_java_com_example_yaqeengulf_ui_main_mainscreenviewmodeltest",
+      "app_src_test_java_com_example_yaqeengulf_ui_main_mainscreenviewmodeltest_fakemymodelrepository",
+      "app_src_test_java_com_example_yaqeengulf_ui_main_mainscreenviewmodeltest_kt_flow",
+      "app_src_test_java_com_example_yaqeengulf_ui_main_mainscreenviewmodeltest_mainscreenviewmodeltest",
+      "app_src_test_java_com_example_yaqeengulf_ui_main_mainscreenviewmodeltest_mainscreenviewmodeltest_uistate_initiallyloading",
+      "app_src_test_java_com_example_yaqeengulf_ui_main_mainscreenviewmodeltest_mainscreenviewmodeltest_uistate_onitemsaved_isdisplayed",
+      "datarepository"
+    ],
+    "6": [
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardscreen",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardscreen_dashboardscreen",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardscreen_modalitycard",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_theme_color",
+      "color",
+      "imagevector"
+    ],
+    "7": [
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_modality",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_modality_audio",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_modality_image",
+      "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_modality_text"
+    ],
+    "8": [
+      "gradlew",
+      "gradlew__entry",
+      "gradlew_die",
+      "gradlew_save",
+      "gradlew_warn"
+    ],
+    "9": [
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_navigation_navigation",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_navigation_navigation_dashboard",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_navigation_navigation_screen",
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_navigation_navigation_settings"
+    ],
+    "10": [
+      "app_build_gradle"
+    ],
+    "11": [
+      "app_src_main_java_com_yaqeengulf_deepfake_ui_theme_type"
+    ],
+    "12": [
+      "build_gradle"
+    ],
+    "13": [
+      "execution_build_signed_apk"
+    ],
+    "14": [
+      "settings_gradle"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15,
+    "1": 0.16666666666666666,
+    "2": 0.16374269005847952,
+    "3": 0.18333333333333332,
+    "4": 0.3333333333333333,
+    "5": 0.47619047619047616,
+    "6": 0.5333333333333333,
+    "7": 0.4,
+    "8": 0.7,
+    "9": 0.5,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_service_floatingoverlayservice_floatingoverlayservice",
+      "label": "FloatingOverlayService",
+      "degree": 15
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_domain_model_imagemodeltype_imagemodeltype",
+      "label": "ImageModelType",
+      "degree": 15
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_appdatabase",
+      "label": "AppDatabase",
+      "degree": 13
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsviewmodel_settingsviewmodel",
+      "label": "SettingsViewModel",
+      "degree": 13
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_ui_dashboard_dashboardviewmodel_dashboardviewmodel",
+      "label": "DashboardViewModel",
+      "degree": 11
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_data_preferences_userpreferencesrepository_userpreferencesrepository",
+      "label": "UserPreferencesRepository",
+      "degree": 9
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_yaqeenapp_yaqeenapp",
+      "label": "YaqeenApp",
+      "degree": 9
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_data_local_scanhistoryentity_scanhistoryentity",
+      "label": "ScanHistoryEntity",
+      "degree": 8
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_ui_settings_settingsscreen_settingsscreen",
+      "label": "SettingsScreen()",
+      "degree": 7
+    },
+    {
+      "id": "app_src_main_java_com_yaqeengulf_deepfake_data_local_appdatabase_scanhistorydao",
+      "label": "ScanHistoryDao",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "YaqeenApp",
+      "target": "AppDatabase",
+      "source_files": [
+        "app/src/main/java/com/yaqeengulf/deepfake/YaqeenApp.kt",
+        "app/src/main/java/com/yaqeengulf/deepfake/data/local/AppDatabase.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "DashboardViewModel",
+      "target": "ScanHistoryEntity",
+      "source_files": [
+        "app/src/main/java/com/yaqeengulf/deepfake/ui/dashboard/DashboardViewModel.kt",
+        "app/src/main/java/com/yaqeengulf/deepfake/data/local/ScanHistoryEntity.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "MainActivity",
+      "target": "SettingsViewModel",
+      "source_files": [
+        "app/src/main/java/com/yaqeengulf/deepfake/MainActivity.kt",
+        "app/src/main/java/com/yaqeengulf/deepfake/ui/settings/SettingsViewModel.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "DashboardScreen()",
+      "target": "DashboardViewModel",
+      "source_files": [
+        "app/src/main/java/com/yaqeengulf/deepfake/ui/dashboard/DashboardScreen.kt",
+        "app/src/main/java/com/yaqeengulf/deepfake/ui/dashboard/DashboardViewModel.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "DashboardViewModel",
+      "target": "ImageModelType",
+      "source_files": [
+        "app/src/main/java/com/yaqeengulf/deepfake/ui/dashboard/DashboardViewModel.kt",
+        "app/src/main/java/com/yaqeengulf/deepfake/domain/model/ImageModelType.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ImageModelType` connect `ImageModelType` to `FloatingOverlayService`, `DashboardViewModel`, `SettingsViewModel`, `DashboardScreen.kt`, `Modality`?",
+      "why": "High betweenness centrality (0.203) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `YaqeenApp` connect `ImageModelType` to `FloatingOverlayService`, `AppDatabase`, `DashboardViewModel`, `SettingsViewModel`?",
+      "why": "High betweenness centrality (0.187) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `AppDatabase` connect `AppDatabase` to `ImageModelType`?",
+      "why": "High betweenness centrality (0.154) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `PreferencesKeys`, `Dashboard`, `Settings` to the rest of the system?",
+      "why": "8 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

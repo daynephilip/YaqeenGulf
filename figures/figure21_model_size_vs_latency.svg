@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="620" viewBox="0 0 1000 620">
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="620" fill="#FFFFFF"/>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1000" height="70" fill="#0F172A"/>
+  <text x="30" y="32" fill="#10B981" font-size="13" font-weight="bold" font-family="Arial, sans-serif" letter-spacing="1">ON-DEVICE BENCHMARK &amp; HARDWARE EFFICIENCY</text>
+  <text x="30" y="55" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="Arial, sans-serif">Figure 21: Model Storage Footprint vs. CPU Inference Latency (Six Deployed Checkpoints)</text>
+
+  <!-- Legend -->
+  <circle cx="670" cy="35" r="7" fill="#059669"/>
+  <text x="685" y="39" fill="#FFFFFF" font-size="12" font-family="Arial, sans-serif">Vision (GenImage)</text>
+
+  <circle cx="800" cy="35" r="7" fill="#0284C7"/>
+  <text x="815" y="39" fill="#FFFFFF" font-size="12" font-family="Arial, sans-serif">Audio (ASVspoof/ArEnAV)</text>
+
+  <circle cx="920" cy="35" r="7" fill="#7C3AED"/>
+  <text x="935" y="39" fill="#FFFFFF" font-size="12" font-family="Arial, sans-serif">Text (ISOT/AFND)</text>
+
+  <!-- Highlight Regions -->
+  <rect x="100" y="320.0" width="276.6666666666667" height="210.0" fill="#F0FDF4" opacity="0.6"/>
+  <text x="115" y="515" fill="#16A34A" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Ultra-Lightweight &amp; Fast (&lt;10ms, &lt;50MB)</text>
+
+  <rect x="598.0" y="110" width="332.0" height="420" fill="#F5F3FF" opacity="0.6"/>
+  <text x="915" y="135" fill="#6D28D9" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Large NLP Weight Regime (Single-Session Resident Only)</text>
+
+  <!-- Y-Axis Gridlines (Latency: 0 to 100 ms) -->
+  <line x1="100" y1="530.0" x2="930" y2="530.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="534.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">0 ms</text>
+  <line x1="100" y1="488.0" x2="930" y2="488.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="492.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">10 ms</text>
+  <line x1="100" y1="446.0" x2="930" y2="446.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="450.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">20 ms</text>
+  <line x1="100" y1="404.0" x2="930" y2="404.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="408.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">30 ms</text>
+  <line x1="100" y1="362.0" x2="930" y2="362.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="366.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">40 ms</text>
+  <line x1="100" y1="320.0" x2="930" y2="320.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="324.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">50 ms</text>
+  <line x1="100" y1="278.0" x2="930" y2="278.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="282.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">60 ms</text>
+  <line x1="100" y1="236.0" x2="930" y2="236.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="240.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">70 ms</text>
+  <line x1="100" y1="194.0" x2="930" y2="194.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="198.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">80 ms</text>
+  <line x1="100" y1="152.0" x2="930" y2="152.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="156.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">90 ms</text>
+  <line x1="100" y1="110.0" x2="930" y2="110.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="114.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">100 ms</text>
+  <line x1="100.0" y1="110" x2="100.0" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="100.0" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">0 MB</text>
+  <line x1="175.5" y1="110" x2="175.5" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="175.5" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">50 MB</text>
+  <line x1="250.9" y1="110" x2="250.9" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="250.9" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">100 MB</text>
+  <line x1="326.4" y1="110" x2="326.4" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="326.4" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">150 MB</text>
+  <line x1="401.8" y1="110" x2="401.8" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="401.8" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">200 MB</text>
+  <line x1="477.3" y1="110" x2="477.3" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="477.3" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">250 MB</text>
+  <line x1="552.7" y1="110" x2="552.7" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="552.7" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">300 MB</text>
+  <line x1="628.2" y1="110" x2="628.2" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="628.2" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">350 MB</text>
+  <line x1="703.6" y1="110" x2="703.6" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="703.6" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">400 MB</text>
+  <line x1="779.1" y1="110" x2="779.1" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="779.1" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">450 MB</text>
+  <line x1="854.5" y1="110" x2="854.5" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="854.5" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">500 MB</text>
+  <line x1="930.0" y1="110" x2="930.0" y2="530" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="930.0" y="550" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">550 MB</text>
+  <line x1="100" y1="110" x2="100" y2="530" stroke="#334155" stroke-width="2"/>
+  <line x1="100" y1="530" x2="930" y2="530" stroke="#334155" stroke-width="2"/>
+
+  <!-- Axis Titles -->
+  <text x="515.0" y="576" fill="#0F172A" font-size="13" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">On-Device Model Package Size on Storage (MB)</text>
+  <text x="35" y="320.0" fill="#0F172A" font-size="13" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(-90 35 320.0)">Single-Threaded CPU Inference Latency (ms)</text>
+
+  <!-- Point: SpectrogramCNN (EN) -->
+  <circle cx="102.4" cy="504.8" r="12" fill="#0284C7" opacity="0.2"/>
+  <circle cx="102.4" cy="504.8" r="7" fill="#0284C7" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="114.4" y="500.8" fill="#0F172A" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">SpectrogramCNN (EN)</text>
+  <text x="114.4" y="514.8" fill="#0284C7" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">1.6 MB • 6 ms</text>
+
+  <!-- Point: SpectrogramCNN (AR) -->
+  <circle cx="102.4" cy="504.8" r="12" fill="#0284C7" opacity="0.2"/>
+  <circle cx="102.4" cy="504.8" r="7" fill="#0284C7" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="114.4" y="518.8" fill="#0F172A" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">SpectrogramCNN (AR)</text>
+  <text x="114.4" y="532.8" fill="#0284C7" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">1.6 MB • 6 ms</text>
+
+  <!-- Point: EfficientNet-B3 -->
+  <circle cx="161.6" cy="391.4" r="12" fill="#059669" opacity="0.2"/>
+  <circle cx="161.6" cy="391.4" r="7" fill="#059669" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="175.6" y="385.4" fill="#0F172A" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">EfficientNet-B3</text>
+  <text x="175.6" y="399.4" fill="#059669" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">40.8 MB • 33 ms</text>
+
+  <!-- Point: Swin-T -->
+  <circle cx="261.9" cy="152.0" r="12" fill="#059669" opacity="0.2"/>
+  <circle cx="261.9" cy="152.0" r="7" fill="#059669" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="275.9" y="157.0" fill="#0F172A" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">Swin-T</text>
+  <text x="275.9" y="171.0" fill="#059669" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="start">107.3 MB • 90 ms</text>
+
+  <!-- Point: BERT-base (EN) -->
+  <circle cx="730.6" cy="315.8" r="12" fill="#7C3AED" opacity="0.2"/>
+  <circle cx="730.6" cy="315.8" r="7" fill="#7C3AED" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="716.6" y="305.8" fill="#0F172A" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">BERT-base (EN)</text>
+  <text x="716.6" y="319.8" fill="#7C3AED" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">417.9 MB • 51 ms</text>
+
+  <!-- Point: AraBERT (AR) -->
+  <circle cx="878.7" cy="341.0" r="12" fill="#7C3AED" opacity="0.2"/>
+  <circle cx="878.7" cy="341.0" r="7" fill="#7C3AED" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="864.7" y="357.0" fill="#0F172A" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">AraBERT (AR)</text>
+  <text x="864.7" y="371.0" fill="#7C3AED" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">516.0 MB • 45 ms</text>
+
+  <text x="515.0" y="608" fill="#94A3B8" font-size="11" font-family="Arial, sans-serif" text-anchor="middle">
+    Key Insight: NLP Transformers exhibit large memory footprint (~418–516 MB) but moderate latency (~45–51 ms) due to 1D sequence packing (L=64), whereas Swin-T has highest latency (90 ms) from 2D shifted-window patch attention.
+  </text>
+</svg>

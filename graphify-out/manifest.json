@@ -1,0 +1,776 @@
+{
+  "app/build.gradle.kts": {
+    "mtime": 1789382436.432364,
+    "seen": 1790370206.1984005,
+    "ast_hash": "1f7203d41c3ec6dafd6fa51e0749a6b0",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/MainActivity.kt": {
+    "mtime": 1789382648.6009982,
+    "seen": 1790370206.1984005,
+    "ast_hash": "255d0918a83b74932999e5d89695b149",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/YaqeenApp.kt": {
+    "mtime": 1788895931.595443,
+    "seen": 1788896520.5893347,
+    "ast_hash": "ad2f3715df66d350217e375271880798",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/data/local/AppDatabase.kt": {
+    "mtime": 1788906828.830246,
+    "seen": 1789157806.06522,
+    "ast_hash": "749fb402884b6c0bf2553696fb4a142a",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/data/local/ScanHistoryEntity.kt": {
+    "mtime": 1788903993.3182786,
+    "seen": 1789157806.06522,
+    "ast_hash": "30e00b8a3442cfd6dabf50f7d3674227",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/data/preferences/UserPreferencesRepository.kt": {
+    "mtime": 1788975484.5119824,
+    "seen": 1789157806.06522,
+    "ast_hash": "6b0efc3e08b41d2deb90f93f84c8270f",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/domain/model/ImageModelType.kt": {
+    "mtime": 1788719849.661793,
+    "seen": 1788723971.029171,
+    "ast_hash": "21da07a7479965080ca0e012415d8779",
+    "semantic_hash": "21da07a7479965080ca0e012415d8779"
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/service/FloatingOverlayService.kt": {
+    "mtime": 1789382318.2599783,
+    "seen": 1790370206.1984005,
+    "ast_hash": "2f952e475931ec60b06a5f0622eeb003",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/dashboard/DashboardScreen.kt": {
+    "mtime": 1789382151.769043,
+    "seen": 1790370206.1984005,
+    "ast_hash": "2572cac4ea2117ddc3e1a887c9074ad1",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/dashboard/DashboardViewModel.kt": {
+    "mtime": 1789382035.0087218,
+    "seen": 1790370206.1984005,
+    "ast_hash": "9e3c818f82a23a41b76a621113bd105f",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/navigation/Navigation.kt": {
+    "mtime": 1788965235.6085236,
+    "seen": 1789157806.06522,
+    "ast_hash": "8b62492c4f61557441c0c5f35a7caa35",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/settings/SettingsScreen.kt": {
+    "mtime": 1789382669.9793108,
+    "seen": 1790370206.1984005,
+    "ast_hash": "d41f405774e9e977e4c790e5f5f5ae73",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/settings/SettingsViewModel.kt": {
+    "mtime": 1788961815.998217,
+    "seen": 1789157806.06522,
+    "ast_hash": "f52f197c53caccef5904425e8951add3",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/theme/Color.kt": {
+    "mtime": 1788965229.0344362,
+    "seen": 1789157806.06522,
+    "ast_hash": "f8696ffd1da3042c923e274de375ef21",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/theme/Theme.kt": {
+    "mtime": 1788965352.5909562,
+    "seen": 1789157806.06522,
+    "ast_hash": "20ec27a14fb93c55553e61c9e762167b",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/theme/Type.kt": {
+    "mtime": 1788719966.8618267,
+    "seen": 1788723971.029171,
+    "ast_hash": "4a20d9357fa68e903eb615e6a5d787b1",
+    "semantic_hash": "4a20d9357fa68e903eb615e6a5d787b1"
+  },
+  "build.gradle.kts": {
+    "mtime": 1788718177.6092823,
+    "seen": 1788723971.029171,
+    "ast_hash": "aa88c6c665b41d3ab89c3cd8b0c7d128",
+    "semantic_hash": "aa88c6c665b41d3ab89c3cd8b0c7d128"
+  },
+  "execution/build_signed_apk.ps1": {
+    "mtime": 1788904306.6043215,
+    "seen": 1789157806.06522,
+    "ast_hash": "e3fdb31a52263ef7f50c4dd1df6365c5",
+    "semantic_hash": ""
+  },
+  "gradlew": {
+    "mtime": 1788718177.6112823,
+    "seen": 1788723971.029171,
+    "ast_hash": "857faf4b42fc9e324fb40b7223f2a94a",
+    "semantic_hash": "857faf4b42fc9e324fb40b7223f2a94a"
+  },
+  "settings.gradle.kts": {
+    "mtime": 1788718179.1871421,
+    "seen": 1788723971.029171,
+    "ast_hash": "fbe29bcbb65a12ae83a24d45e7cd340c",
+    "semantic_hash": "fbe29bcbb65a12ae83a24d45e7cd340c"
+  },
+  "app/src/main/assets/models/img_det_effnet_fc_weights.json": {
+    "mtime": 1788772413.490908,
+    "seen": 1788880896.3953257,
+    "ast_hash": "2444009e77003aadbfa06bf6ed627ede",
+    "semantic_hash": ""
+  },
+  "app/src/main/assets/models/img_det_swin_fc_weights.json": {
+    "mtime": 1788772413.8646517,
+    "seen": 1788880896.3953257,
+    "ast_hash": "0d1110f0ad735f515cbc089505d7e83b",
+    "semantic_hash": ""
+  },
+  "app/src/main/assets/models/voice_ar_fc_weights.json": {
+    "mtime": 1788772414.1421535,
+    "seen": 1788880896.3953257,
+    "ast_hash": "beabfa879b91fe4a164b58702e36e471",
+    "semantic_hash": ""
+  },
+  "app/src/main/assets/models/voice_en_fc_weights.json": {
+    "mtime": 1788772414.0116448,
+    "seen": 1788880896.3953257,
+    "ast_hash": "471c33aae5777cdc7d6979d6cb4a1943",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/capture/audio/AudioCaptureManager.kt": {
+    "mtime": 1788796399.614149,
+    "seen": 1788880896.3953257,
+    "ast_hash": "0202806ffd89fae2aa58658e7b358ad6",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/capture/image/ImageCaptureManager.kt": {
+    "mtime": 1788796389.41549,
+    "seen": 1788880896.3953257,
+    "ast_hash": "087369896d15401ca5f897a243be8b5d",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/capture/overlay/MediaProjectionCaptureManager.kt": {
+    "mtime": 1788796412.5907798,
+    "seen": 1788880896.3953257,
+    "ast_hash": "af13b5732c97083b3c104050cc76f467",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/capture/overlay/YaqeenAccessibilityService.kt": {
+    "mtime": 1789130896.3052204,
+    "seen": 1789157806.06522,
+    "ast_hash": "7d2e4025705f3a7ca85e36b70c7a283f",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/domain/orchestrator/VerificationOrchestrator.kt": {
+    "mtime": 1789382296.7255948,
+    "seen": 1790370206.1984005,
+    "ast_hash": "c4e2fd413510cc09b18573abf934aa5e",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/domain/router/LanguageRouter.kt": {
+    "mtime": 1788796385.1268198,
+    "seen": 1788880896.3953257,
+    "ast_hash": "640f6ab27b46a5365d0b3980970d5823",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/inference/ModelManager.kt": {
+    "mtime": 1789382284.7498438,
+    "seen": 1790370206.1984005,
+    "ast_hash": "4ba2849b08d08a661bd1350442890653",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/inference/ModelType.kt": {
+    "mtime": 1788777814.280183,
+    "seen": 1788880896.3953257,
+    "ast_hash": "524b5733ec07722fa467a0a59b28d72f",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/inference/preprocessor/AudioMelPreprocessor.kt": {
+    "mtime": 1788778079.4367251,
+    "seen": 1788880896.3953257,
+    "ast_hash": "429c991453dddeeb334dd5a8a48f6b34",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/inference/preprocessor/ImagePreprocessor.kt": {
+    "mtime": 1788954701.509679,
+    "seen": 1789157806.06522,
+    "ast_hash": "b58fd523b1e9704da57c997c11a5c835",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/inference/preprocessor/WordPieceTokenizer.kt": {
+    "mtime": 1788777823.1306696,
+    "seen": 1788880896.3953257,
+    "ast_hash": "7cc8ef0380f289b3870a67ff149e7071",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/xai/AudioCamPostProcessor.kt": {
+    "mtime": 1788781865.4533126,
+    "seen": 1788880896.3953257,
+    "ast_hash": "cf943a8f2c34f14934a5bfd5b808042e",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/xai/FcWeightsLoader.kt": {
+    "mtime": 1789382307.5607307,
+    "seen": 1790370206.1984005,
+    "ast_hash": "4fcb2e846f2b8a024eabc455f2c5ba26",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/xai/ImageCamPostProcessor.kt": {
+    "mtime": 1788781819.1643386,
+    "seen": 1788880896.3953257,
+    "ast_hash": "66da479db4dd811f1309333fd1f0b20c",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/xai/TextAttentionPostProcessor.kt": {
+    "mtime": 1788954784.6612456,
+    "seen": 1789157806.06522,
+    "ast_hash": "b527b531372baf20a12ef685661660b2",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/xai/XaiResult.kt": {
+    "mtime": 1788781641.6664808,
+    "seen": 1788880896.3953257,
+    "ast_hash": "9d3e67d0653d630a90ab59402a66e756",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/capture/audio/AudioCaptureUnitTest.kt": {
+    "mtime": 1788796565.6094239,
+    "seen": 1788880896.3963306,
+    "ast_hash": "460b7e63327ec45ebc9639e57660b109",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/domain/router/LanguageRouterUnitTest.kt": {
+    "mtime": 1788796555.3799915,
+    "seen": 1788880896.3963306,
+    "ast_hash": "42fa3889de57c7671de21044b6e8bb39",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/inference/EndToEndIntegrationSmokeTest.kt": {
+    "mtime": 1788796901.2635267,
+    "seen": 1788880896.3963306,
+    "ast_hash": "fe2d10276f1fc457ebfce3b248202879",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/inference/ModelInferenceVerificationTest.kt": {
+    "mtime": 1788778429.319462,
+    "seen": 1788880896.3963306,
+    "ast_hash": "90adfabf49cc803e1a05d282b5879c2a",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/inference/ModelManagerMultiSwitchSmokeTest.kt": {
+    "mtime": 1788780491.921893,
+    "seen": 1788880896.3963306,
+    "ast_hash": "c25c20756b1e228ccdc627b171e69dae",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/inference/preprocessor/PreprocessorUnitTest.kt": {
+    "mtime": 1788779142.275905,
+    "seen": 1788880896.3963306,
+    "ast_hash": "bbb7546711ca9b18258f0fcbe2db2cd5",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/xai/XaiPostProcessorUnitTest.kt": {
+    "mtime": 1789382340.276566,
+    "seen": 1790370206.1984005,
+    "ast_hash": "1ca40095665a5f15511a01cae201e2ea",
+    "semantic_hash": ""
+  },
+  "execution/copy_onnx_to_assets.py": {
+    "mtime": 1788772436.0836976,
+    "seen": 1788880896.3963306,
+    "ast_hash": "9199b3f55b37b500dd8e3133a2d7a2c2",
+    "semantic_hash": ""
+  },
+  "execution/dump_xai_artifacts.py": {
+    "mtime": 1788784601.2899492,
+    "seen": 1788880896.3963306,
+    "ast_hash": "d02825b7362b197e8743919fdfed63ca",
+    "semantic_hash": ""
+  },
+  "execution/export_audio.py": {
+    "mtime": 1788771890.0177326,
+    "seen": 1788880896.3963306,
+    "ast_hash": "5ce3f301b7081b2f5d9ddffc923a637d",
+    "semantic_hash": ""
+  },
+  "execution/export_fc_weights.py": {
+    "mtime": 1788772401.7295053,
+    "seen": 1788880896.3963306,
+    "ast_hash": "5567363bcee856132451c64f7b93a55c",
+    "semantic_hash": ""
+  },
+  "execution/export_image_effnet.py": {
+    "mtime": 1788771878.4068072,
+    "seen": 1788880896.3963306,
+    "ast_hash": "a9d42b3d7f84f61c48489fab270f27cc",
+    "semantic_hash": ""
+  },
+  "execution/export_image_swin.py": {
+    "mtime": 1788771883.5318627,
+    "seen": 1788880896.3963306,
+    "ast_hash": "f9a79c77490ddeecfbaad0521dedd23e",
+    "semantic_hash": ""
+  },
+  "execution/export_text.py": {
+    "mtime": 1788771895.5086064,
+    "seen": 1788880896.3963306,
+    "ast_hash": "99abe077a57596cf7decc84081ca3abf",
+    "semantic_hash": ""
+  },
+  "execution/verify_onnx.py": {
+    "mtime": 1788771906.328633,
+    "seen": 1788880896.3963306,
+    "ast_hash": "ce02b8b4ea94755ded818b0e3868f737",
+    "semantic_hash": ""
+  },
+  "xai_dumps/text_ar_highlights.json": {
+    "mtime": 1788785244.501504,
+    "seen": 1788880896.3963306,
+    "ast_hash": "c9454e54dd42619cbd65baa899576de0",
+    "semantic_hash": ""
+  },
+  "xai_dumps/text_en_highlights.json": {
+    "mtime": 1788785238.720073,
+    "seen": 1788880896.3963306,
+    "ast_hash": "11b2bd9377b3abf3805fc747a9c286c9",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1788716702.831048,
+    "seen": 1788880896.3963306,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1788716702.832011,
+    "seen": 1788880896.3963306,
+    "ast_hash": "a831cf3669f1e6ab85d8a80ebe655f99",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1788714091.0826237,
+    "seen": 1788880896.3963306,
+    "ast_hash": "4e8e7e189204ff1e8e1e9873540c2eae",
+    "semantic_hash": ""
+  },
+  "PHASE2_VERIFICATION_REPORT.md": {
+    "mtime": 1788775111.1203833,
+    "seen": 1788880896.3963306,
+    "ast_hash": "0942d2d8eddc6a19bcdb7653ee33a1e6",
+    "semantic_hash": ""
+  },
+  "app/src/main/assets/vocab/vocab_ar.txt": {
+    "mtime": 1788771436.440008,
+    "seen": 1788880896.3963306,
+    "ast_hash": "60721510d5eae38315da567d895a94ea",
+    "semantic_hash": ""
+  },
+  "app/src/main/assets/vocab/vocab_en.txt": {
+    "mtime": 1788771410.3903382,
+    "seen": 1788880896.3963306,
+    "ast_hash": "64800d5d8528ce344256daf115d4965e",
+    "semantic_hash": ""
+  },
+  "deepfake_shield_build_plan.md": {
+    "mtime": 1788714145.3846905,
+    "seen": 1788880896.3963306,
+    "ast_hash": "acbebc7a5a0b20ecd2cb1ebba79359fb",
+    "semantic_hash": ""
+  },
+  "directives/phase0_graphify_setup.md": {
+    "mtime": 1788716226.5018132,
+    "seen": 1788880896.3963306,
+    "ast_hash": "5641944cc6c6f51be54b48f5ab5547d1",
+    "semantic_hash": ""
+  },
+  "directives/phase1_project_shell.md": {
+    "mtime": 1788716226.5275805,
+    "seen": 1788880896.3963306,
+    "ast_hash": "40977de37d67794550c7c0cfff805e94",
+    "semantic_hash": ""
+  },
+  "directives/phase2_onnx_export.md": {
+    "mtime": 1788775096.6786451,
+    "seen": 1788880896.3963306,
+    "ast_hash": "734fa04d9f28fca78cdd8d564265df4b",
+    "semantic_hash": ""
+  },
+  "directives/phase3_inference_engine.md": {
+    "mtime": 1788716226.5427914,
+    "seen": 1788880896.3963306,
+    "ast_hash": "ea9e35e36917b3d9a0b8f0a75743b4ec",
+    "semantic_hash": ""
+  },
+  "directives/phase4_xai_postprocessing.md": {
+    "mtime": 1788716226.5544703,
+    "seen": 1788880896.3963306,
+    "ast_hash": "4684d03212c4779261b1ee51db1e78f6",
+    "semantic_hash": ""
+  },
+  "directives/phase5_capture_pipelines.md": {
+    "mtime": 1788797121.1222498,
+    "seen": 1788880896.3963306,
+    "ast_hash": "7d4797dd7e3b4493e04ea4d80a9fc399",
+    "semantic_hash": ""
+  },
+  "directives/phase6_cloud_source_check.md": {
+    "mtime": 1788895553.2392113,
+    "seen": 1788896520.5903049,
+    "ast_hash": "52fac1ae26d1c0f69fa4ec5c323c308c",
+    "semantic_hash": ""
+  },
+  "directives/phase7_result_ui.md": {
+    "mtime": 1788868224.8267317,
+    "seen": 1788880896.3963306,
+    "ast_hash": "ef45ff2a4a076867b823598b9d0d7052",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-hdpi/ic_launcher.webp": {
+    "mtime": 1788718179.2947066,
+    "seen": 1788880896.3963306,
+    "ast_hash": "39d9bb21eb48f128a71c3f01ad3cd427",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp": {
+    "mtime": 1788718179.295707,
+    "seen": 1788880896.3963306,
+    "ast_hash": "70d6f58af3c76ee221c829b1ce9daa04",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-mdpi/ic_launcher.webp": {
+    "mtime": 1788718179.2967067,
+    "seen": 1788880896.3963306,
+    "ast_hash": "d2acce71c7b46e5e9540d23a9f7b2166",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp": {
+    "mtime": 1788718179.297706,
+    "seen": 1788880896.3963306,
+    "ast_hash": "6376acb48f96a855ee95c113cd7fd616",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-xhdpi/ic_launcher.webp": {
+    "mtime": 1788718179.2987063,
+    "seen": 1788880896.3963306,
+    "ast_hash": "bd087d80b70bec05a43c745f29dc3ffc",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp": {
+    "mtime": 1788718179.2997053,
+    "seen": 1788880896.3963306,
+    "ast_hash": "7479edd56ab712609f030054bffd7263",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp": {
+    "mtime": 1788718179.3007073,
+    "seen": 1788880896.3963306,
+    "ast_hash": "ea180e8d1a2e8300cc998b987266b736",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp": {
+    "mtime": 1788718179.3018906,
+    "seen": 1788880896.3963306,
+    "ast_hash": "947842742b29eeda80ee0805e1600366",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp": {
+    "mtime": 1788718179.3069127,
+    "seen": 1788880896.3963306,
+    "ast_hash": "54ab624970c86c2146e76b93f27586f7",
+    "semantic_hash": ""
+  },
+  "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp": {
+    "mtime": 1788718179.3079772,
+    "seen": 1788880896.3963306,
+    "ast_hash": "9ee591be72fb336861a8044086054daa",
+    "semantic_hash": ""
+  },
+  "xai_dumps/effnet_cam_overlay.png": {
+    "mtime": 1788785227.1812108,
+    "seen": 1788880896.3963306,
+    "ast_hash": "378e265b44c755cd641241c06ee8c772",
+    "semantic_hash": ""
+  },
+  "xai_dumps/sample_input_image.png": {
+    "mtime": 1788785223.1026018,
+    "seen": 1788880896.3963306,
+    "ast_hash": "7bc6023e69c02cce2b06f0aa4a0ca2e7",
+    "semantic_hash": ""
+  },
+  "xai_dumps/swin_cam_overlay.png": {
+    "mtime": 1788785231.3390503,
+    "seen": 1788880896.3963306,
+    "ast_hash": "170df8029aa9ffe01d6de5d2a68bc627",
+    "semantic_hash": ""
+  },
+  "xai_dumps/voice_ar_spectrogram_cam.png": {
+    "mtime": 1788785233.4153087,
+    "seen": 1788880896.3963306,
+    "ast_hash": "f6524762b4d6160de9cd557a89585d1a",
+    "semantic_hash": ""
+  },
+  "xai_dumps/voice_en_spectrogram_cam.png": {
+    "mtime": 1788785232.3214645,
+    "seen": 1788880896.3963306,
+    "ast_hash": "97ba2985e423ad7646b4e10b8b916d87",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/data/cloud/CloudCheckResult.kt": {
+    "mtime": 1788961362.410603,
+    "seen": 1789157806.06522,
+    "ast_hash": "3883345601e82a179c75dc342ad0e666",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/data/cloud/CloudSourceCheckRepository.kt": {
+    "mtime": 1788992059.4043448,
+    "seen": 1789157806.06522,
+    "ast_hash": "250f061c48be3898ee50319acf92517d",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/cloud/CloudSourceCheckUnitTest.kt": {
+    "mtime": 1788896083.547165,
+    "seen": 1788896520.5903049,
+    "ast_hash": "7001a624d3e6f6e69a4ae5b78b336763",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/api/check.js": {
+    "mtime": 1788991750.74578,
+    "seen": 1789157806.06522,
+    "ast_hash": "e1f18f3edc23e6be20aea2eac2945b86",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/lib/extractor.js": {
+    "mtime": 1788975086.4705076,
+    "seen": 1789157806.06522,
+    "ast_hash": "7e02f4733ebbad86621213d7ab0ff2dc",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/lib/limiter.js": {
+    "mtime": 1788895616.2471528,
+    "seen": 1788896520.5903049,
+    "ast_hash": "43a38091d31b240f55966df07e5df15e",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/lib/llm.js": {
+    "mtime": 1788991837.5177925,
+    "seen": 1789157806.06522,
+    "ast_hash": "c8283abaf54b7e53aa503e5fda5bf7e2",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/lib/ssrf.js": {
+    "mtime": 1788975076.7452157,
+    "seen": 1789157806.06522,
+    "ast_hash": "3ef0b1fad7f02d0564e7c04e5dd6708f",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/package.json": {
+    "mtime": 1788895685.8519783,
+    "seen": 1788896520.5903049,
+    "ast_hash": "a68bedf0cadddd582216073f5c24ff1a",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/test/proxy.test.js": {
+    "mtime": 1788991842.6494727,
+    "seen": 1789157806.06522,
+    "ast_hash": "07db1af7e09c37d806fc265538fa62c4",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/vercel.json": {
+    "mtime": 1788895597.068053,
+    "seen": 1788896520.5903049,
+    "ast_hash": "1e554faa226c8d4f8c7e957a4efc883a",
+    "semantic_hash": ""
+  },
+  "cloud_proxy/api/server.js": {
+    "mtime": 1788896994.5181043,
+    "seen": 1788898608.1979256,
+    "ast_hash": "ac21eb2c90e387563e8c940e2369beb3",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/domain/model/DualImageScanResult.kt": {
+    "mtime": 1789137075.469666,
+    "seen": 1789157806.06522,
+    "ast_hash": "8e338d96883837d922b626419698f190",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/cloud/CloudVerificationScreen.kt": {
+    "mtime": 1789382101.831301,
+    "seen": 1790370206.1984005,
+    "ast_hash": "ae5d8cd5c464ec24cdece74754d9008c",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/components/YaqeenBottomBar.kt": {
+    "mtime": 1788965246.0166156,
+    "seen": 1789157806.06522,
+    "ast_hash": "13b628a4b43922d1c668c07ee2ff9260",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/history/HistoryScreen.kt": {
+    "mtime": 1788967007.3215735,
+    "seen": 1789157806.06522,
+    "ast_hash": "e0d1522aa899ef9c6503925b11c1530b",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/ui/result/ResultBottomSheet.kt": {
+    "mtime": 1789382329.6754613,
+    "seen": 1790370206.1984005,
+    "ast_hash": "fbb79b554fec4beb6edd8ec54ed0d0e0",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/data/local/DatabaseMigrationUnitTest.kt": {
+    "mtime": 1788906835.1876369,
+    "seen": 1789157806.06522,
+    "ast_hash": "1b5cce645e0240c78b0158f3b9615fa0",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/overlay/DualImageScanUnitTest.kt": {
+    "mtime": 1789137088.3472023,
+    "seen": 1789157806.06522,
+    "ast_hash": "55007ab8b54133dba56bcfa17edabce1",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/data/c2pa/C2paProvenanceManager.kt": {
+    "mtime": 1789160915.608997,
+    "seen": 1790370206.1984005,
+    "ast_hash": "6e6d5fb407fe70b691263311ab365154",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/yaqeengulf/deepfake/domain/model/ContentCredentialsResult.kt": {
+    "mtime": 1789159490.5230324,
+    "seen": 1790370206.1984005,
+    "ast_hash": "02202a636403122d161e9afc757ad6c7",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/yaqeengulf/deepfake/c2pa/C2paProvenanceUnitTest.kt": {
+    "mtime": 1789163196.540917,
+    "seen": 1790370206.1984005,
+    "ast_hash": "1ca5a80a3e2a4cdb52e467a7d03d9be3",
+    "semantic_hash": ""
+  },
+  "execution/generate_thesis_figures.py": {
+    "mtime": 1790370006.0622797,
+    "seen": 1790370206.1984005,
+    "ast_hash": "e41d1f484c9029d9d50d0edf100b49fd",
+    "semantic_hash": ""
+  },
+  "PROJECT_ACCOMPLISHMENTS_THESIS.md": {
+    "mtime": 1790246969.101509,
+    "seen": 1790370206.1984005,
+    "ast_hash": "950c7c5c079154df0e6925beff8dc6ad",
+    "semantic_hash": ""
+  },
+  "REALTIME_OVERLAY_IMPLEMENTATION.md": {
+    "mtime": 1790246935.133699,
+    "seen": 1790370206.1984005,
+    "ast_hash": "ac541709b3dc36e9ff5b4958b069fcad",
+    "semantic_hash": ""
+  },
+  "figures/figure20_pytorch_vs_onnx_parity.jpg": {
+    "mtime": 1790370051.5887158,
+    "seen": 1790370206.1984005,
+    "ast_hash": "aafab087eb94e3f880ba556b822d55ca",
+    "semantic_hash": ""
+  },
+  "figures/figure20_pytorch_vs_onnx_parity.png": {
+    "mtime": 1790370051.7877853,
+    "seen": 1790370206.1984005,
+    "ast_hash": "bbb5e509ff53bcc10c3d3bfb2344c8bd",
+    "semantic_hash": ""
+  },
+  "figures/figure20_pytorch_vs_onnx_parity.svg": {
+    "mtime": 1790370051.509463,
+    "seen": 1790370206.1984005,
+    "ast_hash": "c6b507013fe1b34995762ca2a0fd177a",
+    "semantic_hash": ""
+  },
+  "figures/figure21_model_size_vs_latency.jpg": {
+    "mtime": 1790370051.8960052,
+    "seen": 1790370206.1984005,
+    "ast_hash": "bd43a9a24b2744b2f5e377283d3feeda",
+    "semantic_hash": ""
+  },
+  "figures/figure21_model_size_vs_latency.png": {
+    "mtime": 1790370052.1089873,
+    "seen": 1790370206.1984005,
+    "ast_hash": "8e00524f98070090aacb53dac1fedb7a",
+    "semantic_hash": ""
+  },
+  "figures/figure21_model_size_vs_latency.svg": {
+    "mtime": 1790370051.796432,
+    "seen": 1790370206.1984005,
+    "ast_hash": "b8408e2f7d34a2de55072acb5730c927",
+    "semantic_hash": ""
+  },
+  "figures/figure7_three_tier_image_localisation.jpg": {
+    "mtime": 1790370049.3752732,
+    "seen": 1790370206.1984005,
+    "ast_hash": "d32bcfe629b59d27341f6a2c38c36451",
+    "semantic_hash": ""
+  },
+  "figures/figure7_three_tier_image_localisation.png": {
+    "mtime": 1790370051.5072038,
+    "seen": 1790370206.1984005,
+    "ast_hash": "3ce569f77d62004d5ca3a32322663e02",
+    "semantic_hash": ""
+  },
+  "figures/figure7_three_tier_image_localisation.svg": {
+    "mtime": 1790370049.0881972,
+    "seen": 1790370206.1984005,
+    "ast_hash": "965f3268159ac682ca7920e6052f994d",
+    "semantic_hash": ""
+  },
+  "figures/figure8_dual_model_consensus.jpg": {
+    "mtime": 1790370052.3902166,
+    "seen": 1790370206.1984005,
+    "ast_hash": "61c6fa3ae2b3ba49115ac749b8ba6384",
+    "semantic_hash": ""
+  },
+  "figures/figure8_dual_model_consensus.png": {
+    "mtime": 1790370052.6805325,
+    "seen": 1790370206.1984005,
+    "ast_hash": "005933c5c0323b4ad6a2acd1f1525789",
+    "semantic_hash": ""
+  },
+  "figures/figure8_dual_model_consensus.svg": {
+    "mtime": 1790370052.1175566,
+    "seen": 1790370206.1984005,
+    "ast_hash": "23e99e9648b3add020ad2ea059f04eba",
+    "semantic_hash": ""
+  },
+  "test_pil.png": {
+    "mtime": 1790347476.5387104,
+    "seen": 1790370206.1984005,
+    "ast_hash": "8c72ef24d3740306628f1f08ffdd7495",
+    "semantic_hash": ""
+  },
+  "execution/generate_decision_flow_chart.py": {
+    "mtime": 1790370494.7038214,
+    "seen": 1790370577.6382551,
+    "ast_hash": "3a86859976b7e66727c507bcdbe04c65",
+    "semantic_hash": ""
+  },
+  "figures/figure7_decision_flow_architecture.jpg": {
+    "mtime": 1790370508.3911054,
+    "seen": 1790370577.6382551,
+    "ast_hash": "cf73ecde0f87416386fa5d940e311f3c",
+    "semantic_hash": ""
+  },
+  "figures/figure7_decision_flow_architecture.png": {
+    "mtime": 1790370508.9425867,
+    "seen": 1790370577.6382551,
+    "ast_hash": "ad77fef97d2ed4fc3c2309f8b981c3a1",
+    "semantic_hash": ""
+  },
+  "figures/figure7_decision_flow_architecture.svg": {
+    "mtime": 1790370508.0111885,
+    "seen": 1790370577.6382551,
+    "ast_hash": "b2eb04397f2079a6719cdeedd57e9206",
+    "semantic_hash": ""
+  }
+}

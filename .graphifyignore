@@ -1,0 +1,5 @@
+*.onnx
+*.pt
+*.apk
+.gradle/
+build/

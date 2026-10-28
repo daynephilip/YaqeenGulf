@@ -1,0 +1,53 @@
+{
+  "text": "انتشر مقطع الفيديو المزيف بسرعة",
+  "tokens": [
+    "[CLS]",
+    "انتشر",
+    "مقطع",
+    "الفيديو",
+    "المزيف",
+    "بسرعة",
+    "[SEP]"
+  ],
+  "token_scores": [
+    0.3897,
+    0.0,
+    0.4508,
+    0.3531,
+    0.1628,
+    1.0,
+    1.0
+  ],
+  "word_highlights": [
+    {
+      "word": "انتشر",
+      "score": 0.0,
+      "start_index": 0,
+      "end_index": 5
+    },
+    {
+      "word": "مقطع",
+      "score": 0.4508,
+      "start_index": 6,
+      "end_index": 10
+    },
+    {
+      "word": "الفيديو",
+      "score": 0.3531,
+      "start_index": 11,
+      "end_index": 18
+    },
+    {
+      "word": "المزيف",
+      "score": 0.1628,
+      "start_index": 19,
+      "end_index": 25
+    },
+    {
+      "word": "بسرعة",
+      "score": 1.0,
+      "start_index": 26,
+      "end_index": 31
+    }
+  ]
+}

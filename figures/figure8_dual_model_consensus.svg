@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="620" viewBox="0 0 1000 620">
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="620" fill="#FFFFFF"/>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1000" height="70" fill="#0F172A"/>
+  <text x="30" y="32" fill="#10B981" font-size="13" font-weight="bold" font-family="Arial, sans-serif" letter-spacing="1">YAQEEN GULF • REAL-TIME SCREEN OVERLAY</text>
+  <text x="30" y="55" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="Arial, sans-serif">Figure 8: Three-State Dual-Model Consensus Verification Decision Flow</text>
+
+  <!-- Subtitle -->
+  <text x="30" y="98" fill="#64748B" font-size="12.5" font-family="Arial, sans-serif">When an on-screen image is captured, EfficientNet-B3 (CNN) and Swin-T (Transformer) execute simultaneously on the identical cropped frame.</text>
+  <text x="30" y="116" fill="#64748B" font-size="12.5" font-family="Arial, sans-serif">The overlay maps the outputs into a tri-state indicator, preventing false certainty by isolating architecture disagreements.</text>
+
+  <!-- STATE 1: SYNTHETIC AGREEMENT -->
+  <g transform="translate(30, 140)">
+    <rect x="0" y="0" width="295" height="440" rx="12" ry="12" fill="#FFF5F5" stroke="#EF4444" stroke-width="2"/>
+    <rect x="18" y="18" width="259" height="34" rx="6" ry="6" fill="#EF4444"/>
+    <text x="147" y="40" fill="#FFFFFF" font-size="12.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">STATE 1: SYNTHETIC AGREEMENT</text>
+    
+    <!-- Big Alert Badge -->
+    <circle cx="147" cy="85" r="24" fill="#FEE2E2"/>
+    <text x="147" y="93" fill="#DC2626" font-size="22" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">!</text>
+    
+    <text x="147" y="126" fill="#991B1B" font-size="16" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">DEEPFAKE DETECTED</text>
+    <text x="147" y="144" fill="#B91C1C" font-size="11.5" font-family="Arial, sans-serif" text-anchor="middle">High-Confidence Consensus</text>
+
+    <!-- Sub-models Box -->
+    <rect x="18" y="160" width="259" height="105" rx="8" ry="8" fill="#FFFFFF" stroke="#FECACA" stroke-width="1"/>
+    <text x="30" y="182" fill="#475569" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif">Individual Model Outputs:</text>
+    <text x="30" y="206" fill="#1E293B" font-size="11.5" font-family="Arial, sans-serif">• EfficientNet-B3:</text>
+    <text x="260" y="206" fill="#DC2626" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Fake (98.4%)</text>
+    <text x="30" y="228" fill="#1E293B" font-size="11.5" font-family="Arial, sans-serif">• Swin-T (Patch CAM):</text>
+    <text x="260" y="228" fill="#DC2626" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Fake (96.8%)</text>
+    <text x="30" y="250" fill="#64748B" font-size="10.5" font-family="Arial, sans-serif">Cross-Entropy Disparity: &lt; 0.02</text>
+
+    <!-- XAI Box -->
+    <rect x="18" y="275" width="259" height="90" rx="8" ry="8" fill="#FFFFFF" stroke="#FECACA" stroke-width="1"/>
+    <text x="30" y="296" fill="#475569" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif">Explainable AI (XAI) Behavior:</text>
+    <text x="30" y="316" fill="#334155" font-size="11" font-family="Arial, sans-serif">• Both CAM maps focus on matching</text>
+    <text x="38" y="332" fill="#334155" font-size="11" font-family="Arial, sans-serif">spatial generator artifacts.</text>
+    <text x="30" y="352" fill="#DC2626" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif">Action: Prominent Red Alert Banner</text>
+
+    <!-- Action -->
+    <rect x="18" y="378" width="259" height="42" rx="6" ry="6" fill="#DC2626"/>
+    <text x="147" y="404" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Verdict: SYNTHETIC (Confirmed)</text>
+  </g>
+
+  <!-- STATE 2: AUTHENTIC AGREEMENT -->
+  <g transform="translate(352, 140)">
+    <rect x="0" y="0" width="295" height="440" rx="12" ry="12" fill="#F0FDF4" stroke="#10B981" stroke-width="2"/>
+    <rect x="18" y="18" width="259" height="34" rx="6" ry="6" fill="#10B981"/>
+    <text x="147" y="40" fill="#FFFFFF" font-size="12.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">STATE 2: AUTHENTIC AGREEMENT</text>
+    
+    <!-- Big Check Badge -->
+    <circle cx="147" cy="85" r="24" fill="#DCFCE7"/>
+    <polyline points="137,85 144,92 158,78" fill="none" stroke="#059669" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <text x="147" y="126" fill="#065F46" font-size="16" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">AUTHENTIC / REAL</text>
+    <text x="147" y="144" fill="#047857" font-size="11.5" font-family="Arial, sans-serif" text-anchor="middle">High-Confidence Consensus</text>
+
+    <!-- Sub-models Box -->
+    <rect x="18" y="160" width="259" height="105" rx="8" ry="8" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="1"/>
+    <text x="30" y="182" fill="#475569" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif">Individual Model Outputs:</text>
+    <text x="30" y="206" fill="#1E293B" font-size="11.5" font-family="Arial, sans-serif">• EfficientNet-B3:</text>
+    <text x="260" y="206" fill="#059669" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Real (99.1%)</text>
+    <text x="30" y="228" fill="#1E293B" font-size="11.5" font-family="Arial, sans-serif">• Swin-T (Patch CAM):</text>
+    <text x="260" y="228" fill="#059669" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Real (98.3%)</text>
+    <text x="30" y="250" fill="#64748B" font-size="10.5" font-family="Arial, sans-serif">Organic sensor noise verified</text>
+
+    <!-- XAI Box -->
+    <rect x="18" y="275" width="259" height="90" rx="8" ry="8" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="1"/>
+    <text x="30" y="296" fill="#475569" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif">Explainable AI (XAI) Behavior:</text>
+    <text x="30" y="316" fill="#334155" font-size="11" font-family="Arial, sans-serif">• Diffuse low-activation attention;</text>
+    <text x="38" y="332" fill="#334155" font-size="11" font-family="Arial, sans-serif">no anomalous focal clustering.</text>
+    <text x="30" y="352" fill="#059669" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif">Action: Emerald Shield Badge Displayed</text>
+
+    <!-- Action -->
+    <rect x="18" y="378" width="259" height="42" rx="6" ry="6" fill="#059669"/>
+    <text x="147" y="404" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Verdict: REAL (Verified)</text>
+  </g>
+
+  <!-- STATE 3: DISAGREEMENT -->
+  <g transform="translate(675, 140)">
+    <rect x="0" y="0" width="295" height="440" rx="12" ry="12" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="18" y="18" width="259" height="34" rx="6" ry="6" fill="#F59E0B"/>
+    <text x="147" y="40" fill="#FFFFFF" font-size="12.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">STATE 3: MODEL DIVERGENCE</text>
+    
+    <!-- Big Warning Badge -->
+    <circle cx="147" cy="85" r="24" fill="#FEF3C7"/>
+    <text x="147" y="93" fill="#D97706" font-size="22" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">?</text>
+    
+    <text x="147" y="126" fill="#92400E" font-size="16" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">DISPUTED / DIVERGENT</text>
+    <text x="147" y="144" fill="#B45309" font-size="11.5" font-family="Arial, sans-serif" text-anchor="middle">Lower-Confidence Result (No Guess)</text>
+
+    <!-- Sub-models Box -->
+    <rect x="18" y="160" width="259" height="105" rx="8" ry="8" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1"/>
+    <text x="30" y="182" fill="#475569" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif">Individual Model Outputs:</text>
+    <text x="30" y="206" fill="#1E293B" font-size="11.5" font-family="Arial, sans-serif">• EfficientNet-B3:</text>
+    <text x="260" y="206" fill="#059669" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Real (78.2%)</text>
+    <text x="30" y="228" fill="#1E293B" font-size="11.5" font-family="Arial, sans-serif">• Swin-T (Transformer):</text>
+    <text x="260" y="228" fill="#DC2626" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Fake (84.6%)</text>
+    <text x="30" y="250" fill="#D97706" font-size="10.5" font-family="Arial, sans-serif">Significant Arch Divergence (Δ = 62.8%)</text>
+
+    <!-- XAI Box -->
+    <rect x="18" y="275" width="259" height="90" rx="8" ry="8" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1"/>
+    <text x="30" y="296" fill="#475569" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif">Explainable AI (XAI) Behavior:</text>
+    <text x="30" y="316" fill="#334155" font-size="11" font-family="Arial, sans-serif">• Side-by-side Dual Grad-CAM shows</text>
+    <text x="38" y="332" fill="#334155" font-size="11" font-family="Arial, sans-serif">conflicting patch vs conv focus.</text>
+    <text x="30" y="352" fill="#B45309" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif">Action: Prompts Full Manual Inspection</text>
+
+    <!-- Action -->
+    <rect x="18" y="378" width="259" height="42" rx="6" ry="6" fill="#D97706"/>
+    <text x="147" y="404" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Verdict: DISPUTED (Low Confidence)</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="500" y="605" fill="#94A3B8" font-size="11" font-family="Arial, sans-serif" text-anchor="middle">Yaqeen Gulf Architecture Principle: In State 3, the system deliberately refrains from forcing an unprincipled 50/50 tie-break, presenting a transparent lower-confidence advisory.</text>
+</svg>

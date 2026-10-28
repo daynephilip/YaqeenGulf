@@ -1,0 +1,84 @@
+# ==============================================================================
+# SENSITIVE FILES & CREDENTIALS (NEVER COMMIT)
+# ==============================================================================
+# Environment variables and API keys
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+cloud_proxy/.env
+cloud_proxy/.env.*
+
+# Allow example / template files
+!.env.example
+!**/.env.example
+
+# Keystores, signing keys & certificates
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.token
+yaqeen-release.jks
+**/yaqeen-release.jks
+
+# Android local configuration & private SDK paths (contains keystore passwords)
+local.properties
+**/local.properties
+
+# Allow local.properties.example
+!local.properties.example
+!**/local.properties.example
+
+# ==============================================================================
+# BUILD ARTIFACTS & DEPENDENCIES
+# ==============================================================================
+# Node & Vercel
+node_modules/
+**/node_modules/
+.vercel/
+**/.vercel/
+
+# Gradle & Android build outputs
+.gradle/
+**/.gradle/
+build/
+**/build/
+app/build/
+.kotlin/
+**/.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE & Editor files
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+.vscode/
+
+# Python caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS temporary files
+Thumbs.db
+.DS_Store
+
+# Project scratch space
+.tmp/
+**/scratch/
+
+# ==============================================================================
+# LARGE MODEL WEIGHTS (Hosted on Hugging Face: daynephilip/yaqeen-deepfake-models)
+# ==============================================================================
+*.pt
+*.onnx
+*.bin
+*.safetensors

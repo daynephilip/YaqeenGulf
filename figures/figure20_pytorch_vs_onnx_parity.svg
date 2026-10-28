@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="580" viewBox="0 0 1000 580">
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="580" fill="#FFFFFF"/>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1000" height="70" fill="#0F172A"/>
+  <text x="30" y="32" fill="#10B981" font-size="13" font-weight="bold" font-family="Arial, sans-serif" letter-spacing="1">OFF-DEVICE MODEL EXPORT &amp; VERIFICATION</text>
+  <text x="30" y="55" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="Arial, sans-serif">Figure 20: PyTorch vs. ONNX Runtime Numerical Parity (Logarithmic Scale)</text>
+
+  <!-- Legend -->
+  <rect x="620" y="24" width="16" height="16" rx="3" ry="3" fill="#10B981"/>
+  <text x="644" y="37" fill="#FFFFFF" font-size="12" font-family="Arial, sans-serif">Max Logit Diff</text>
+  
+  <rect x="760" y="24" width="16" height="16" rx="3" ry="3" fill="#6366F1"/>
+  <text x="784" y="37" fill="#FFFFFF" font-size="12" font-family="Arial, sans-serif">Max XAI Diff</text>
+
+  <line x1="880" y1="32" x2="910" y2="32" stroke="#EF4444" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="918" y="37" fill="#FCA5A5" font-size="12" font-family="Arial, sans-serif">Tolerance (&lt; 1e-3)</text>
+
+  <!-- Gridlines -->
+  <line x1="110" y1="470.0" x2="940" y2="470.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="98" y="474.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">1e-8</text>
+  <line x1="110" y1="410.0" x2="940" y2="410.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="98" y="414.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">1e-7</text>
+  <line x1="110" y1="350.0" x2="940" y2="350.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="98" y="354.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">1e-6</text>
+  <line x1="110" y1="290.0" x2="940" y2="290.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="98" y="294.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">1e-5</text>
+  <line x1="110" y1="230.0" x2="940" y2="230.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="98" y="234.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">1e-4</text>
+  <line x1="110" y1="170.0" x2="940" y2="170.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="98" y="174.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">1e-3</text>
+  <line x1="110" y1="110.0" x2="940" y2="110.0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="98" y="114.0" fill="#64748B" font-size="12" font-family="Arial, sans-serif" text-anchor="end">1e-2</text>
+
+  <!-- Tolerance Line -->
+  <line x1="110" y1="170.0" x2="940" y2="170.0" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,4"/>
+  <rect x="720" y="146.0" width="210" height="20" rx="3" ry="3" fill="#FEE2E2"/>
+  <text x="925" y="160.0" fill="#DC2626" font-size="11" font-weight="bold" font-family="Arial, sans-serif" text-anchor="end">Maximum Allowed Tolerance &lt; 1e-3</text>
+
+  <!-- Group 0: EfficientNet-B3 -->
+  <rect x="146.2" y="314.7" width="30" height="155.3" rx="3" ry="3" fill="#10B981"/>
+  <text x="161.2" y="309.7" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">3.87e-06</text>
+
+  <rect x="182.2" y="258.6" width="30" height="211.4" rx="3" ry="3" fill="#6366F1"/>
+  <text x="197.2" y="253.6" fill="#3730A3" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">3.34e-05</text>
+
+  <!-- Labels -->
+  <text x="179.2" y="492" fill="#0F172A" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">EfficientNet-B3</text>
+  <text x="179.2" y="508" fill="#64748B" font-size="10" font-family="Arial, sans-serif" text-anchor="middle">Vision CNN</text>
+  <rect x="153.2" y="516" width="52" height="16" rx="3" ry="3" fill="#DCFCE7"/>
+  <text x="179.2" y="528" fill="#15803D" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">PASS</text>
+
+  <!-- Group 1: Swin-T -->
+  <rect x="284.5" y="333.1" width="30" height="136.9" rx="3" ry="3" fill="#10B981"/>
+  <text x="299.5" y="328.1" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">1.91e-06</text>
+
+  <rect x="320.5" y="294.0" width="30" height="176.0" rx="3" ry="3" fill="#6366F1"/>
+  <text x="335.5" y="289.0" fill="#3730A3" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">8.58e-06</text>
+
+  <!-- Labels -->
+  <text x="317.5" y="492" fill="#0F172A" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Swin-T</text>
+  <text x="317.5" y="508" fill="#64748B" font-size="10" font-family="Arial, sans-serif" text-anchor="middle">Vision Transformer</text>
+  <rect x="291.5" y="516" width="52" height="16" rx="3" ry="3" fill="#DCFCE7"/>
+  <text x="317.5" y="528" fill="#15803D" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">PASS</text>
+
+  <!-- Group 2: SpectrogramCNN (EN) -->
+  <rect x="422.8" y="351.2" width="30" height="118.8" rx="3" ry="3" fill="#10B981"/>
+  <text x="437.8" y="346.2" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">9.54e-07</text>
+
+  <rect x="458.8" y="292.6" width="30" height="177.4" rx="3" ry="3" fill="#6366F1"/>
+  <text x="473.8" y="287.6" fill="#3730A3" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">9.06e-06</text>
+
+  <!-- Labels -->
+  <text x="455.8" y="492" fill="#0F172A" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">SpectrogramCNN (EN)</text>
+  <text x="455.8" y="508" fill="#64748B" font-size="10" font-family="Arial, sans-serif" text-anchor="middle">Audio CNN</text>
+  <rect x="429.8" y="516" width="52" height="16" rx="3" ry="3" fill="#DCFCE7"/>
+  <text x="455.8" y="528" fill="#15803D" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">PASS</text>
+
+  <!-- Group 3: SpectrogramCNN (AR) -->
+  <rect x="561.2" y="405.5" width="30" height="64.5" rx="3" ry="3" fill="#10B981"/>
+  <text x="576.2" y="400.5" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">1.19e-07</text>
+
+  <rect x="597.2" y="297.0" width="30" height="173.0" rx="3" ry="3" fill="#6366F1"/>
+  <text x="612.2" y="292.0" fill="#3730A3" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">7.63e-06</text>
+
+  <!-- Labels -->
+  <text x="594.2" y="492" fill="#0F172A" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">SpectrogramCNN (AR)</text>
+  <text x="594.2" y="508" fill="#64748B" font-size="10" font-family="Arial, sans-serif" text-anchor="middle">Audio CNN</text>
+  <rect x="568.2" y="516" width="52" height="16" rx="3" ry="3" fill="#DCFCE7"/>
+  <text x="594.2" y="528" fill="#15803D" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">PASS</text>
+
+  <!-- Group 4: BERT-base (EN) -->
+  <rect x="699.5" y="358.7" width="30" height="111.3" rx="3" ry="3" fill="#10B981"/>
+  <text x="714.5" y="353.7" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">7.15e-07</text>
+
+  <rect x="735.5" y="374.9" width="30" height="95.1" rx="3" ry="3" fill="#6366F1"/>
+  <text x="750.5" y="369.9" fill="#3730A3" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">3.84e-07</text>
+
+  <!-- Labels -->
+  <text x="732.5" y="492" fill="#0F172A" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">BERT-base (EN)</text>
+  <text x="732.5" y="508" fill="#64748B" font-size="10" font-family="Arial, sans-serif" text-anchor="middle">NLP Transformer</text>
+  <rect x="706.5" y="516" width="52" height="16" rx="3" ry="3" fill="#DCFCE7"/>
+  <text x="732.5" y="528" fill="#15803D" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">PASS</text>
+
+  <!-- Group 5: AraBERT (AR) -->
+  <rect x="837.8" y="300.5" width="30" height="169.5" rx="3" ry="3" fill="#10B981"/>
+  <text x="852.8" y="295.5" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">6.68e-06</text>
+
+  <rect x="873.8" y="288.7" width="30" height="181.3" rx="3" ry="3" fill="#6366F1"/>
+  <text x="888.8" y="283.7" fill="#3730A3" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">1.05e-05</text>
+
+  <!-- Labels -->
+  <text x="870.8" y="492" fill="#0F172A" font-size="11.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">AraBERT (AR)</text>
+  <text x="870.8" y="508" fill="#64748B" font-size="10" font-family="Arial, sans-serif" text-anchor="middle">NLP Transformer</text>
+  <rect x="844.8" y="516" width="52" height="16" rx="3" ry="3" fill="#DCFCE7"/>
+  <text x="870.8" y="528" fill="#15803D" font-size="9" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">PASS</text>
+
+  <!-- Axes -->
+  <line x1="110" y1="470" x2="940" y2="470" stroke="#334155" stroke-width="2"/>
+  <line x1="110" y1="110" x2="110" y2="470" stroke="#334155" stroke-width="2"/>
+  <text x="35" y="290.0" fill="#334155" font-size="12" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(-90 35 290.0)">Absolute Numerical Difference (Log Scale)</text>
+</svg>

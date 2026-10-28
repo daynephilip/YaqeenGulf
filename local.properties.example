@@ -1,0 +1,9 @@
+## Example local.properties
+# Android Studio will automatically generate this file with your local Android SDK path when you open the project.
+# sdk.dir=C:\Users\<Username>\AppData\Local\Android\Sdk
+
+# Keystore configuration (Optional: only needed for release signing builds)
+# RELEASE_KEYSTORE_PATH=/path/to/your/release.jks
+# RELEASE_KEYSTORE_PASSWORD=your_keystore_password
+# RELEASE_KEY_ALIAS=your_key_alias
+# RELEASE_KEY_PASSWORD=your_key_password

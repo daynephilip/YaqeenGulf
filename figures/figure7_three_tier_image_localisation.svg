@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1100" height="760" viewBox="0 0 1100 760">
+  <!-- Background -->
+  <rect x="0" y="0" width="1100" height="760" fill="#FFFFFF"/>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1100" height="70" fill="#0F172A"/>
+  <text x="30" y="32" fill="#10B981" font-size="13" font-weight="bold" font-family="Arial, sans-serif" letter-spacing="1">YAQEEN GULF • REAL-TIME SCREEN OVERLAY</text>
+  <text x="30" y="55" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="Arial, sans-serif">Figure 7: Overlay Three-Tier Image Localisation Decision Flow</text>
+
+  <!-- Subtitle -->
+  <text x="30" y="94" fill="#475569" font-size="12" font-family="Arial, sans-serif">When on-screen capture is initiated, the subsystem isolates media graphics from UI chrome through a deterministic three-stage cascade.</text>
+  <text x="30" y="112" fill="#64748B" font-size="12" font-family="Arial, sans-serif">Semantic accessibility nodes are prioritized first; computer vision saliency acts as secondary fallback, with center cropping guaranteeing zero failure.</text>
+
+  <!-- ==================== INPUT NODE ==================== -->
+  <rect x="75" y="136" width="290" height="46" rx="8" ry="8" fill="#F1F5F9" stroke="#64748B" stroke-width="1.5"/>
+  <circle cx="98" cy="159" r="13" fill="#E2E8F0"/>
+  <rect x="91" y="153" width="14" height="11" rx="1.5" ry="1.5" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <circle cx="98" cy="158.5" r="2.5" fill="#475569"/>
+  <text x="122" y="154" fill="#0F172A" font-size="12.5" font-weight="bold" font-family="Arial, sans-serif">Screen Framebuffer Captured</text>
+  <text x="122" y="170" fill="#64748B" font-size="10" font-family="Arial, sans-serif">MediaProjection / VirtualDisplay stream</text>
+
+  <!-- Arrow from Input to Tier 1 -->
+  <line x1="220" y1="182" x2="220" y2="212" stroke="#64748B" stroke-width="2"/>
+  <polygon points="215,212 225,212 220,218" fill="#64748B"/>
+
+  <!-- ==================== TIER 1 ==================== -->
+  <!-- Decision Card -->
+  <rect x="35" y="218" width="370" height="138" rx="10" ry="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="50" y="230" width="64" height="22" rx="4" ry="4" fill="#1D4ED8"/>
+  <text x="82" y="245" fill="#FFFFFF" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">TIER 1</text>
+  <text x="124" y="247" fill="#1E3A8A" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Accessibility Node Check</text>
+  <text x="52" y="268" fill="#2563EB" font-size="10.5" font-family="Arial, sans-serif">Traverses active window AccessibilityNodeInfo hierarchy</text>
+
+  <!-- Criteria Box -->
+  <rect x="50" y="276" width="340" height="66" rx="6" ry="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="60" y="294" fill="#1E293B" font-size="10" font-family="Arial, sans-serif">• Target View: ImageView, Photo, Picture</text>
+  <text x="60" y="312" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Min Dimensions: Width, Height ≥ 110 dp</text>
+  <text x="60" y="330" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Aspect Ratio Gate: 0.35 ≤ (W / H) ≤ 2.85</text>
+
+  <!-- Tier 1 Outcome: Found -> Action 1 -->
+  <line x1="405" y1="287" x2="474" y2="287" stroke="#10B981" stroke-width="2.5"/>
+  <polygon points="474,282 474,292 480,287" fill="#10B981"/>
+  <rect x="414" y="276" width="52" height="22" rx="11" ry="11" fill="#DCFCE7" stroke="#10B981" stroke-width="1"/>
+  <text x="440" y="291" fill="#047857" font-size="10" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Found</text>
+
+  <!-- Action Box 1 -->
+  <rect x="480" y="228" width="295" height="118" rx="10" ry="10" fill="#FFFFFF" stroke="#10B981" stroke-width="2"/>
+  <circle cx="508" cy="252" r="12" fill="#DCFCE7"/>
+  <polyline points="502,252 506,256 514,248" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="526" y="256" fill="#065F46" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Extract Node Bounds</text>
+  <text x="496" y="278" fill="#334155" font-size="10.5" font-family="Arial, sans-serif">• Resolves to touch-proximity coord (x, y)</text>
+  <text x="496" y="296" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Fallback: Largest visible candidate media card</text>
+  <rect x="496" y="310" width="220" height="24" rx="4" ry="4" fill="#DCFCE7"/>
+  <text x="606" y="326" fill="#047857" font-size="9.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">TIER_1_ACCESSIBILITY_NODE</text>
+
+  <!-- Tier 1 Outcome: Not Found -> Tier 2 -->
+  <line x1="220" y1="356" x2="220" y2="394" stroke="#F59E0B" stroke-width="2.5"/>
+  <polygon points="215,394 225,394 220,400" fill="#F59E0B"/>
+  <rect x="156" y="367" width="128" height="22" rx="11" ry="11" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1"/>
+  <text x="220" y="382" fill="#B45309" font-size="9.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Not Found / Obscured</text>
+
+  <!-- ==================== TIER 2 ==================== -->
+  <!-- Decision Card -->
+  <rect x="35" y="400" width="370" height="138" rx="10" ry="10" fill="#F5F3FF" stroke="#8B5CF6" stroke-width="2"/>
+  <rect x="50" y="412" width="64" height="22" rx="4" ry="4" fill="#6D28D9"/>
+  <text x="82" y="427" fill="#FFFFFF" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">TIER 2</text>
+  <text x="124" y="429" fill="#4C1D95" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Luminance-Variance Check</text>
+  <text x="52" y="450" fill="#7C3AED" font-size="10.5" font-family="Arial, sans-serif">CV spatial texture &amp; edge distribution analysis</text>
+
+  <!-- Criteria Box -->
+  <rect x="50" y="458" width="340" height="66" rx="6" ry="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1"/>
+  <text x="60" y="476" fill="#1E293B" font-size="10" font-family="Arial, sans-serif">• 16px downsampling grid on captured bitmap</text>
+  <text x="60" y="494" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Perceived luminance: Y = 0.299R + 0.587G + 0.114B</text>
+  <text x="60" y="512" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Contour detection: Spatial row variance σ²(y) &gt; 250</text>
+
+  <!-- Tier 2 Outcome: Found -> Action 2 -->
+  <line x1="405" y1="469" x2="474" y2="469" stroke="#10B981" stroke-width="2.5"/>
+  <polygon points="474,464 474,474 480,469" fill="#10B981"/>
+  <rect x="414" y="458" width="52" height="22" rx="11" ry="11" fill="#DCFCE7" stroke="#10B981" stroke-width="1"/>
+  <text x="440" y="473" fill="#047857" font-size="10" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Found</text>
+
+  <!-- Action Box 2 -->
+  <rect x="480" y="410" width="295" height="118" rx="10" ry="10" fill="#FFFFFF" stroke="#10B981" stroke-width="2"/>
+  <circle cx="508" cy="434" r="12" fill="#DCFCE7"/>
+  <polyline points="502,434 506,438 514,430" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="526" y="438" fill="#065F46" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Extract Contour Bounds</text>
+  <text x="496" y="460" fill="#334155" font-size="10.5" font-family="Arial, sans-serif">• Extracts contiguous high-variance row band</text>
+  <text x="496" y="478" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Trims uniform app chrome &amp; navigation bars</text>
+  <rect x="496" y="492" width="190" height="24" rx="4" ry="4" fill="#DCFCE7"/>
+  <text x="591" y="508" fill="#047857" font-size="9.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">TIER_2_CV_CONTOUR</text>
+
+  <!-- Tier 2 Outcome: Not Found -> Tier 3 -->
+  <line x1="220" y1="538" x2="220" y2="576" stroke="#F59E0B" stroke-width="2.5"/>
+  <polygon points="215,576 225,576 220,582" fill="#F59E0B"/>
+  <rect x="156" y="549" width="128" height="22" rx="11" ry="11" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1"/>
+  <text x="220" y="564" fill="#B45309" font-size="9.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Not Found / Uniform</text>
+
+  <!-- ==================== TIER 3 ==================== -->
+  <!-- Fallback Card -->
+  <rect x="35" y="582" width="370" height="138" rx="10" ry="10" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <rect x="50" y="594" width="64" height="22" rx="4" ry="4" fill="#B45309"/>
+  <text x="82" y="609" fill="#FFFFFF" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">TIER 3</text>
+  <text x="124" y="611" fill="#78350F" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Fixed Centre-Square Fallback</text>
+  <text x="52" y="632" fill="#B45309" font-size="10.5" font-family="Arial, sans-serif">Deterministic geometric screen-center clamp</text>
+
+  <!-- Criteria Box -->
+  <rect x="50" y="640" width="340" height="66" rx="6" ry="6" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1"/>
+  <text x="60" y="658" fill="#1E293B" font-size="10" font-family="Arial, sans-serif">• Dim_center = min(W_screen, 0.65 · H_screen)</text>
+  <text x="60" y="676" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Clamped screen center: (W - Dim)/2, (H - Dim)/2</text>
+  <text x="60" y="694" fill="#047857" font-size="10" font-weight="bold" font-family="Arial, sans-serif">• Zero-Failure Invariant: Always produces usable crop</text>
+
+  <!-- Tier 3 Outcome: Always -> Action 3 -->
+  <line x1="405" y1="651" x2="474" y2="651" stroke="#10B981" stroke-width="2.5"/>
+  <polygon points="474,646 474,656 480,651" fill="#10B981"/>
+  <rect x="412" y="640" width="56" height="22" rx="11" ry="11" fill="#DCFCE7" stroke="#10B981" stroke-width="1"/>
+  <text x="440" y="655" fill="#047857" font-size="10" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">Always</text>
+
+  <!-- Action Box 3 -->
+  <rect x="480" y="592" width="295" height="118" rx="10" ry="10" fill="#FFFFFF" stroke="#10B981" stroke-width="2"/>
+  <circle cx="508" cy="616" r="12" fill="#DCFCE7"/>
+  <polyline points="502,616 506,620 514,612" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="526" y="620" fill="#065F46" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Extract Centre Square</text>
+  <text x="496" y="642" fill="#334155" font-size="10.5" font-family="Arial, sans-serif">• Clamps to guaranteed screen-center square</text>
+  <text x="496" y="660" fill="#475569" font-size="10" font-family="Arial, sans-serif">• Guaranteed fallback; zero unhandled nulls</text>
+  <rect x="496" y="674" width="190" height="24" rx="4" ry="4" fill="#DCFCE7"/>
+  <text x="591" y="690" fill="#047857" font-size="9.5" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">TIER_3_CENTER_CROP</text>
+
+  <!-- ==================== CONVERGENCE BUS ==================== -->
+  <line x1="775" y1="287" x2="805" y2="287" stroke="#059669" stroke-width="2.5"/>
+  <line x1="775" y1="469" x2="805" y2="469" stroke="#059669" stroke-width="2.5"/>
+  <line x1="775" y1="651" x2="805" y2="651" stroke="#059669" stroke-width="2.5"/>
+  <line x1="805" y1="287" x2="805" y2="651" stroke="#059669" stroke-width="2.5"/>
+  <line x1="805" y1="469" x2="824" y2="469" stroke="#059669" stroke-width="2.5"/>
+  <polygon points="824,464 824,474 830,469" fill="#059669"/>
+
+  <!-- ==================== UNIFIED TARGET CROP CARD ==================== -->
+  <rect x="830" y="218" width="235" height="502" rx="12" ry="12" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  
+  <!-- Banner Top -->
+  <path d="M 830 230 A 12 12 0 0 1 842 218 L 1053 218 A 12 12 0 0 1 1065 230 L 1065 276 L 830 276 Z" fill="#0F172A"/>
+  <text x="845" y="238" fill="#10B981" font-size="10" font-weight="bold" font-family="Arial, sans-serif" letter-spacing="1">UNIFIED CROP REGION</text>
+  <text x="845" y="260" fill="#FFFFFF" font-size="13.5" font-weight="bold" font-family="Arial, sans-serif">Clamped Target Crop</text>
+
+  <!-- Step 1: Geometric Validation -->
+  <rect x="842" y="286" width="211" height="68" rx="6" ry="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="852" y="303" fill="#0F172A" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif">1. Display Bounds Clamp</text>
+  <text x="852" y="320" fill="#475569" font-size="9.5" font-family="Arial, sans-serif">• Clamps bounds to [0, 0, W, H]</text>
+  <text x="852" y="336" fill="#475569" font-size="9.5" font-family="Arial, sans-serif">• Validates aspect ratio integrity</text>
+
+  <!-- Step 2: Tensor Preprocessing -->
+  <rect x="842" y="362" width="211" height="82" rx="6" ry="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="852" y="379" fill="#0F172A" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif">2. Tensor Preprocessing</text>
+  <text x="852" y="396" fill="#475569" font-size="9.5" font-family="Arial, sans-serif">• Bilinear resize to 224 × 224</text>
+  <text x="852" y="412" fill="#475569" font-size="9.5" font-family="Arial, sans-serif">• RGB float normalisation [0, 1]</text>
+  <text x="852" y="428" fill="#0284C7" font-size="9" font-weight="bold" font-family="Arial, sans-serif">• Shape: (1, 3, 224, 224) FloatBuffer</text>
+
+  <!-- Step 3: Dual-Model Execution -->
+  <rect x="842" y="452" width="211" height="138" rx="6" ry="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="852" y="470" fill="#1E3A8A" font-size="10.5" font-weight="bold" font-family="Arial, sans-serif">3. Dual-Model Inference</text>
+  <text x="852" y="487" fill="#334155" font-size="9.5" font-family="Arial, sans-serif">Sequential execution on identical</text>
+  <text x="852" y="501" fill="#334155" font-size="9.5" font-family="Arial, sans-serif">cropped bitmap:</text>
+  
+  <rect x="850" y="512" width="195" height="28" rx="4" ry="4" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1"/>
+  <text x="858" y="525" fill="#1D4ED8" font-size="9" font-weight="bold" font-family="Arial, sans-serif">1. EfficientNet-B3 (CNN)</text>
+  <text x="858" y="535" fill="#64748B" font-size="8" font-family="Arial, sans-serif">Conv CAM Grid (7 × 7 × 1536)</text>
+
+  <rect x="850" y="546" width="195" height="28" rx="4" ry="4" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="858" y="559" fill="#6D28D9" font-size="9" font-weight="bold" font-family="Arial, sans-serif">2. Swin-T (Transformer)</text>
+  <text x="858" y="569" fill="#64748B" font-size="8" font-family="Arial, sans-serif">Patch CAM Grid (7 × 7 × 768)</text>
+
+  <!-- Step 4: Invariant Guarantee -->
+  <rect x="842" y="598" width="211" height="110" rx="8" ry="8" fill="#DCFCE7" stroke="#10B981" stroke-width="1.5"/>
+  <circle cx="862" cy="616" r="10" fill="#059669"/>
+  <polyline points="858,616 861,619 867,613" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="878" y="620" fill="#065F46" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Zero-Failure Invariant</text>
+  <text x="852" y="640" fill="#047857" font-size="9.5" font-family="Arial, sans-serif">Every screen capture strictly</text>
+  <text x="852" y="655" fill="#047857" font-size="9.5" font-family="Arial, sans-serif">resolves to a valid crop region.</text>
+  <text x="852" y="670" fill="#047857" font-size="9.5" font-family="Arial, sans-serif">Zero crashes, zero nulls,</text>
+  <text x="852" y="686" fill="#065F46" font-size="9.5" font-weight="bold" font-family="Arial, sans-serif">uninterrupted user HUD flow.</text>
+
+  <!-- Footer -->
+  <text x="550" y="744" fill="#64748B" font-size="10.5" font-family="Arial, sans-serif" text-anchor="middle">
+    Yaqeen Gulf Architecture Principle: Three-tier localisation guarantees 100% operational resilience across standard native apps, hybrid Flutter canvases, and custom WebViews.
+  </text>
+</svg>

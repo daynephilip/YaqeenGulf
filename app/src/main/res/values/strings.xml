@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Yaqeen Gulf</string>
+    <string name="accessibility_service_description">Enables on-demand on-screen text extraction for deepfake and misinformation verification when the floating shield is tapped.</string>
+</resources>
